@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px 0;
+  border-bottom: 1px solid lightgrey;
+}
+.logo-menu {
+  display: inline-block;
+  background-color: crimson;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.chat-name {
+  display: inline-block;
+  font-weight: 600;
+  /* height: 40px; */
+  font-size: 20px;
+}
+
+.svg-menu {
+  display: inline-block;
+  background-color: grey;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.svg-name {
+  display: inline-block;
+  background-color: grey;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar {
+  background-color: gold;
+  height: 50px;
+  width: 50px;
+  border-radius: 15%;
+}
+.sms-content {
+  background-color: gainsboro;
+  display: block;
+  margin-left: 15px;
+  max-width: 85vw;
+}
+
+.nametag,
+.timetag {
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid lightgrey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer input {
+  height: 40px;
+  border: none;
+  font-size: 0.9em;
+  width: 80vw;
+}
+footer input:focus {
+  outline: none;
+}
+footer button {
+  margin: 5px 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 600;
+}
